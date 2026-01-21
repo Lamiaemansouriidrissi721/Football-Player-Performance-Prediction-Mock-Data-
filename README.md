@@ -1,12 +1,12 @@
 Overview
 
-This repository contains a case study exploring predictive modeling for football player performance. Using mock data, the goal was to understand how certain player statistics relate to goal scoring and to experiment with regression models in Python.
+This repository contains a case study on predictive modeling for football player performance. Using a mock dataset, the goal is to explore how player statistics relate to goal scoring and to experiment with regression models in Python.
 
-⚠️ Note: This is a mock dataset created for educational purposes. The results are for exploration only and do not reflect real-world football statistics.
+⚠️ Note: The dataset is simulated for educational purposes. Results are for exploration only and do not reflect real-world football statistics.
 
 Dataset
 
-The dataset includes player statistics such as:
+The dataset includes the following player statistics:
 
 MinutesPlayed – Total minutes played by the player
 
@@ -16,13 +16,13 @@ Assists – Number of assists made
 
 Goals – Target variable: number of goals scored
 
-The data is entirely simulated to demonstrate the modeling process.
+All data is artificially generated to demonstrate the modeling process.
 
 Modeling Approach
 
 The workflow includes:
 
-Feature Selection: Selected a subset of relevant features (MinutesPlayed, ShotsOnTarget, Assists) for predicting goals.
+Feature Selection: Selected relevant features (MinutesPlayed, ShotsOnTarget, Assists) to predict goals.
 
 Train/Test Split: Split data into training (80%) and testing (20%) sets.
 
@@ -32,9 +32,9 @@ StandardScaler for feature scaling
 
 Ridge Regression for linear prediction
 
-Training & Prediction: Model trained on training data and predictions generated on test data.
+Training & Prediction: Model trained on training data and used to generate predictions on test data.
 
-Evaluation: Performance evaluated using:
+Evaluation: Model performance measured using:
 
 Mean Squared Error (MSE)
 
@@ -42,8 +42,8 @@ R² score
 
 Results
 
-Coefficients: Indicate the effect of each feature on goal scoring.
+Coefficients: Show the effect of each feature on goal scoring.
 
-Model Performance: Limited predictive power (expected due to mock data).
+Model Performance: Predictive power is limited (expected due to mock data).
 
-Insights: Even with low accuracy, the exercise helped understand how features influence the target and how a regression pipeline works.
+Insights: Despite low accuracy, the exercise demonstrates the impact of features on the target variable and how a regression pipeline works.
