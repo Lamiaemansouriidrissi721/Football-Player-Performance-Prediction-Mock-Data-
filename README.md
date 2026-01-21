@@ -1,10 +1,10 @@
-Overview
+###Overview
 
 This repository contains a case study on predictive modeling and clustering for football player performance. Using a mock dataset, the goal is to explore how player statistics relate to goal scoring and to experiment with regression and clustering models in Python.
 
 ⚠️ Note: The dataset is simulated for educational purposes. Results are for exploration only and do not reflect real-world football statistics.
 
-Dataset
+##Dataset
 
 The dataset includes the following player statistics:
 
